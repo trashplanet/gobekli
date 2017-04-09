@@ -12,11 +12,11 @@ header {
 	box-shadow: 0 5px 13px rgba(0,0,0,.15);
 	width: 100%;
 	position: fixed;
-    top: 0;
-    left: 0;
-    transition: opacity .5s ease-out;.
-    z-index: 999;
-    color: #fff;
+	top: 0;
+	left: 0;
+	transition: opacity .5s ease-out;.
+	z-index: 999;
+	color: #fff;
 }
 .header-logo {
 	display: inline-block;
@@ -65,7 +65,9 @@ footer .footer-title {
 /* mobile */
 @media (max-width: 641px){
 	body {
+		/*
 		margin-top: 95px;
+		*/
 	}
 	header .header-logo img {
 		height: 45px;
